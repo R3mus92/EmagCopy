@@ -1,0 +1,17 @@
+section {
+    margin-bottom: 70px;
+  }
+  .cards {
+    display: flex;
+  }
+  
+  .newsletter {
+    color: #fff;
+    background: linear-gradient(90deg, rgb(209, 32, 32), rgb(32, 100, 209));
+    margin-bottom: 50px;
+  }
+  
+  .sell-on-emag {
+    color: #fff;
+    background-color: rgb(32, 100, 209);
+  }
