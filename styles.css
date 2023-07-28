@@ -1,3 +1,15 @@
+.container{
+width: 1200px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.navbar .d-flex {
+  flex-grow: 1;
+}
+
+
 section {
     margin-bottom: 70px;
   }
@@ -15,3 +27,31 @@ section {
     color: #fff;
     background-color: rgb(32, 100, 209);
   }
+
+  .navbar-collapse {
+    flex-grow:0  !important;
+    }
+
+  .lower-navbar-collapse ul, 
+  .lower-navbar-collapse {
+    width: 100%;
+    color:#fff !important; 
+  }
+
+  #emag-help {
+    flex: 1;
+    text-align: right;
+  }
+
+  .searchBar{
+    flex:1;
+  }
+
+  #navbar-background {
+    width: 100vw;
+    height: 40px;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(71,9,121,1) 41%, rgba(0,212,255,1) 100%);
+    margin-bottom: 50px;
+  }
+
